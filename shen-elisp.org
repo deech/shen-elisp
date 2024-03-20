@@ -138,6 +138,7 @@ Once [[Assignments][the assigning mechanism]] is in place the spec requires some
   (shen/set '*release* emacs-version)
   (shen/set '*port* 1.7)
   (shen/set '*os* (symbol-name system-type))
+  (shen/set '*version* "S38.1")
 #+END_SRC
 ** Boolean Operations
 Unlike Elisp in KLambda booleans are ~false~ and ~true~, distinct symbols which
